@@ -8,7 +8,7 @@ const Home = () => {
                 <blockquote className="blockquote">
                     <h1>
                     Welcome to my portfolio.
-                    this is test
+                    this is route test
                     </h1>
                 </blockquote>
                 <figcaption className="blockquote-footer mt-3">
