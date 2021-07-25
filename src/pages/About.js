@@ -26,7 +26,7 @@ const About = () => {
                         <div class="col-md-2 text-center">
                             <a class="btn btn-outline-dark shows" data-mdb-ripple-color="dark" 
                             rel="noreferrer" 
-                            href="/resume/resume.pdf" 
+                            href="build/resume/resume.pdf" 
                             target="_blank" 
                             download><h5>Download CV <FaDownload color="#474A8A" /> </h5> </a>
                         </div>
