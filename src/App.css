@@ -44,25 +44,6 @@ header{
 
 }
 
-.media {
-  position: absolute;
-  right: 48rem;
-}
-
-.media:nth-child(2){
-  top:3rem;
-}
-.media:nth-child(3){
-  top:6rem;
-}
-.media:nth-child(4){
-  top:9rem;
-}
-.media:nth-child(5){
-  top:12rem;
-}
-
-
 header h1{
 
   margin:1rem 0 0 0;
@@ -80,36 +61,36 @@ header h1{
 /* skills */
 
 
-.p-2 {
+.jump {
   position: relative;
   animation: mymove 5s;
 }
-.p-2:nth-child(1){
+.jump:nth-child(1){
   position: relative;
   animation: mymove 1s;
 }
-.p-2:nth-child(2){
+.jump:nth-child(2){
   animation: mymove 2s;
 }
-.p-2:nth-child(3){
+.jump:nth-child(3){
   animation: mymove 3s;
 }
-.p-2:nth-child(4){
+.jump:nth-child(4){
   animation: mymove 4s;
 }
-.p-2:nth-child(5){
+.jump:nth-child(5){
   animation: mymove 5s;
 }
-.p-2:nth-child(6){
+.jump:nth-child(6){
   animation: mymove 4s;
 }
-.p-2:nth-child(7){
+.jump:nth-child(7){
   animation: mymove 3s;
 }
-.p-2:nth-child(8){
+.jump:nth-child(8){
   animation: mymove 2s;
 }
-.p-2:nth-child(9){
+.jump:nth-child(9){
   animation: mymove 1s;
 }
 
@@ -167,3 +148,34 @@ header h1{
   from {opacity:0;}
   to {opacity:1;}
 }
+
+
+/* projects */
+
+.card {
+	overflow: hidden;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.card img{
+
+  vertical-align: top;
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+
+}
+
+
+.card img:hover {
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  opacity: .7;
+}
+
+
