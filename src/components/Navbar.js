@@ -17,7 +17,7 @@ const Navbar = () => {
                             </Link> 
                         </li>
                         <li className="nav-item ">
-                        <Link to="https://davitlabadze.github.io/portfolio-project/skills" className="nav-link">
+                        <Link to="/portfolio-project/skills" className="nav-link">
                                 <p>Skills</p>
                             </Link>
                             
