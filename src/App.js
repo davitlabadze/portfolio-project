@@ -24,7 +24,7 @@ function App() {
           <Route path="/portfolio-project/about" component={About} />
           <Route path="/portfolio-project/skills" component={Skills} />
           <Route path="/portfolio-project/projects" component={Projects} />
-          <Route path="/portfolio-project/" component={Home} />
+          <Route path="/portfolio-project" component={Home} />
         </Switch>
       </div>
     </Router>
