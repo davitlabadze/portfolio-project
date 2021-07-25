@@ -21,10 +21,10 @@ function App() {
       <Navbar />
         <Switch>
           
-          <Route path="/about" component={About} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/" component={Home} />
+          <Route path="porfolio-project/about" component={About} />
+          <Route path="porfolio-project/skills" component={Skills} />
+          <Route path="porfolio-project/projects" component={Projects} />
+          <Route path="porfolio-project/" component={Home} />
         </Switch>
       </div>
     </Router>

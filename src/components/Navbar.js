@@ -12,19 +12,19 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul className="navbar-nav mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link to="/about" className="nav-link">
+                            <Link to="porfolio-project/about" className="nav-link">
                                 <p>About me</p>
                             </Link> 
                         </li>
                         <li className="nav-item ">
-                        <Link to="/skills" className="nav-link">
+                        <Link to="porfolio-project/skills" className="nav-link">
                                 <p>Skills</p>
                             </Link>
                             
                         </li>
                         
                         <li className="nav-item">
-                            <Link to="/projects" className="nav-link">
+                            <Link to="porfolio-project/projects" className="nav-link">
                                 <p>Projects</p>
                             </Link> 
                         </li>
