@@ -7,8 +7,7 @@ const Home = () => {
             <figure className="text-center mt-5">
                 <blockquote className="blockquote">
                     <h1>
-                    Welcome to my portfolio.
-                    this is route test
+                    Welcome to my portfolio
                     </h1>
                 </blockquote>
                 <figcaption className="blockquote-footer mt-3">
